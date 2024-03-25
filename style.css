@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/2.jpg);
+    background-size: cover;
+}
+form{
+    width: 200px;
+    height: 500px;
+    background-color: black;
+    margin: 20px 440px;
+    padding: 30px 90px;
+    border-radius: 5px;
+
+}
+form h1{
+    color: rgb(224, 82, 11);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+form label{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin:20px 0;
+    display: inline-block;
+}
+form input{
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(224, 82, 11);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+form input:focus{
+    outline: none;
+}
+form button{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    background: rgb(224, 82, 11);
+    text-transform: capitalize;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(224, 82, 11);
+}
+form h3{
+    color: white;
+}
+form h3 span{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    background: rgb(224, 82, 11);
+    text-transform: capitalize;
+    font-size: 15px;
+    margin: 20px;
+    cursor: pointer;
+    border: 1px solid rgb(224, 82, 11);
+    color: black;
+    border-radius: 5px;
+}
+form h3 span a{
+    text-decoration: none;
+    color: black;
+}
+form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: rgb(224, 82, 11);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
